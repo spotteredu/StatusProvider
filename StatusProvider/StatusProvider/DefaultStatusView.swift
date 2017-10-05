@@ -119,7 +119,7 @@ open class DefaultStatusView: UIView, StatusView {
 		])
 	}
     
-    func actionButtonAction() {
+    @objc func actionButtonAction() {
         status?.action?()
     }
 	
